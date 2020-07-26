@@ -266,6 +266,7 @@ html {
 
 .team-item {
   width: calc((100% - 90px) / 4);
+  padding-bottom: 24px;
   background-color: var(--accent-text-color);
   border-radius: 0px 0px 4px 4px;
   outline: 1px solid #eeeeee;
@@ -309,12 +310,32 @@ html {
 
 .socials-list {
   display: flex;
-  margin-bottom: 24px;
+  justify-content: center;
+}
+
+.social-link {
+  display: block;
+}
+
+.socials-item:not(:last-child) {
+  margin-right: 10px;
 }
 
 /* Clients */
 .clients-list {
   display: flex;
+}
+
+.clients-item {
+  width: calc((100% - 150px) / 6);
+}
+
+.clients-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clients-img {
+  display: block;
 }
 
 /* Footer */
@@ -353,6 +374,8 @@ html {
 }
 
 .location {
+  display: inline-block;
+  margin-bottom: 9px;
   color: var(--accent-text-color);
 }
 
@@ -361,6 +384,10 @@ html {
   text-decoration: none;
 }
 
+.footer-address .mail-link {
+  display: inline-block;
+  margin-bottom: 9px;
+}
 .join {
   margin-right: 94px;
 }
@@ -425,7 +452,7 @@ html {
 
 .portfolio-item {
   width: calc((100% - 60px) / 3);
-
+  /* padding-bottom: 20px; */
   outline: 1px solid #eeeeee;
 }
 
@@ -438,7 +465,9 @@ html {
 }
 
 .item-margin {
-  margin: 20px 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 /* .portfolio-list-item:nth-last-child(-n + 3) {
