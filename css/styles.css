@@ -266,7 +266,7 @@ html {
 
 .team-item {
   width: calc((100% - 90px) / 4);
-  padding-bottom: 24px;
+  padding-bottom: 36px;
   background-color: var(--accent-text-color);
   border-radius: 0px 0px 4px 4px;
   outline: 1px solid #eeeeee;
@@ -305,7 +305,7 @@ html {
 
 .team-description {
   margin-top: 0;
-  margin-bottom: 16px;
+  margin-bottom: 28px;
 }
 
 .socials-list {
@@ -313,12 +313,13 @@ html {
   justify-content: center;
 }
 
-.social-link {
-  display: block;
+.socials-item:not(:last-child) {
+  margin-right: 34px;
 }
 
-.socials-item:not(:last-child) {
-  margin-right: 10px;
+.social-link,
+.social-img {
+  display: block;
 }
 
 /* Clients */
@@ -334,6 +335,7 @@ html {
   margin-right: 30px;
 }
 
+.clients-link,
 .clients-img {
   display: block;
 }
@@ -395,7 +397,7 @@ html {
 /* Form */
 .call-to-action {
   display: inline-block;
-  margin-bottom: 20px;
+  margin-bottom: 32px;
   color: var(--accent-text-color);
   background-color: var(--background-color);
   line-height: 1.143;
