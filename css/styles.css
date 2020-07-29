@@ -6,6 +6,7 @@
   --black-logo-color: #000000;
   --button-color: #f5f4fa;
   --background-color: #2f303a;
+  --border-color: #eeeeee;
 }
 
 html {
@@ -316,34 +317,29 @@ html {
 }
 
 .social-link {
-  display: block;
+  display: flex;
   justify-content: center;
+  width: 44px;
+  height: 44px;
+  /* padding-top: 12px;
+  padding-bottom: 12px; */
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
 }
 
 .social-img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.social-img {
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 
 .socials-item {
   width: calc((100% - 30px) / 4);
-
-  background-color: turquoise;
   justify-content: center;
 }
 
 .socials-item:not(:last-child) {
   margin-right: 10px;
-}
-
-.social-link {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  outline: 1px solid tomato;
 }
 
 /* Clients */
@@ -479,7 +475,7 @@ html {
 .portfolio-item {
   width: calc((100% - 60px) / 3);
   /* padding-bottom: 20px; */
-  outline: 1px solid #eeeeee;
+  border: 1px solid var(--border-color);
 }
 
 .portfolio-item:not(:nth-child(3n)) {
