@@ -327,6 +327,11 @@ html {
   border-radius: 50%;
 }
 
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--accent-color);
+}
+
 .social-img {
   display: block;
   /* margin-left: auto;
