@@ -266,7 +266,7 @@ html {
 
 .team-item {
   width: calc((100% - 90px) / 4);
-  padding-bottom: 36px;
+
   background-color: var(--accent-text-color);
   border-radius: 0px 0px 4px 4px;
   outline: 1px solid #eeeeee;
@@ -286,7 +286,10 @@ html {
 
 .team-picture {
   display: block;
-  margin-bottom: 30px;
+}
+
+.team-description-position {
+  padding: 30px 32px 24px;
 }
 
 .team-description,
@@ -305,21 +308,40 @@ html {
 
 .team-description {
   margin-top: 0;
-  margin-bottom: 28px;
+  margin-bottom: 16px;
 }
 
 .socials-list {
   display: flex;
+}
+
+.social-link {
+  display: block;
+  justify-content: center;
+}
+
+.social-img {
+  display: block;
+}
+
+.social-img {
+}
+
+.socials-item {
+  width: calc((100% - 30px) / 4);
+
+  background-color: turquoise;
   justify-content: center;
 }
 
 .socials-item:not(:last-child) {
-  margin-right: 34px;
+  margin-right: 10px;
 }
 
-.social-link,
-.social-img {
-  display: block;
+.social-link {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  outline: 1px solid tomato;
 }
 
 /* Clients */
