@@ -475,7 +475,6 @@ html {
 .portfolio-item {
   width: calc((100% - 60px) / 3);
   /* padding-bottom: 20px; */
-  border: 1px solid var(--border-color);
 }
 
 .portfolio-item:not(:nth-child(3n)) {
@@ -486,10 +485,9 @@ html {
   margin-bottom: 30px;
 }
 
-.item-margin {
-  padding-bottom: 20px;
-  padding-left: 24px;
-  padding-right: 24px;
+.portfolio-titles {
+  padding: 20px 24px;
+  border: 1px solid var(--border-color);
 }
 
 /* .portfolio-list-item:nth-last-child(-n + 3) {
@@ -498,7 +496,6 @@ html {
 
 .portfolio-picture {
   display: block;
-  margin-bottom: 20px;
 }
 
 .item-title {
